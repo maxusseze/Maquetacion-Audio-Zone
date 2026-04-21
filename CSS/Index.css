@@ -1,3 +1,4 @@
+/* SECCIÓN HOME (PORTADA) */
 .home {
     height: 100vh;
     position: relative;
@@ -18,11 +19,11 @@
     transform: translateY(-50%);
     color: white;
 }
-
+/* TÍTULO PRINCIPAL */
 .texto h1 {
     font-size: 3rem;
 }
-
+/* PÁRRAFO */
 .texto p {
     font-size: 1.2rem;
 }

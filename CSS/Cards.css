@@ -1,21 +1,22 @@
+/* SECCIÓN PRINCIPAL DE LAS CARDS */
 .cards {
     min-height: 100vh;
     padding: 40px;
     text-align: center;
 }
-
+/* TÍTULO DENTRO DE LA SECCIÓN */
 .cards h2 {
     margin-bottom: 30px;
 }
 
-/* CONTENEDOR FLEX */
+/* CONTENEDOR FLEX DE LAS CARDS */
 .contenedor-cards {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-/* CARD */
+/* ESTILO INDIVIDUAL DE CADA CARD */
 .card {
     background: #f5f5f5;
     padding: 20px;
@@ -23,18 +24,18 @@
     border-radius: 10px;
     transition: 0.3s;
 }
-
+/* EFECTO AL PASAR EL MOUSE */
 .card:hover {
     transform: translateY(-5px);
 }
 
-/* IMAGEN */
+/* IMAGEN DENTRO DE LA CARD */
 .card img {
     width: 100%;
     border-radius: 10px;
 }
 
-/* TEXTO */
+/* TÍTULO DE LA CARD */
 .card h3 {
     margin: 10px 0;
 }
@@ -42,27 +43,8 @@
 .card p {
     margin-bottom: 10px;
 }
-
-/* BOTON */
-.card button {
-    padding: 8px 15px;
-    border: none;
-    background: #00bcd4;
-    color: white;
-    cursor: pointer;
+/* SECCIÓN HOME */
+.home {
+    text-align: center;
 }
 
-<!--chat-->
-
-.contenedor-cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.card {
-    width: 250px;
-    background: #f5f5f5;
-    padding: 15px;
-    border-radius: 10px;
-}

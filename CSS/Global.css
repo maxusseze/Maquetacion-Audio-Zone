@@ -19,19 +19,19 @@ body {
     color: white;
     padding: 15px 30px;
 }
-
+/* LISTA DEL MENÚ */
 .navbar ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
-
+/* LINKS DEL NAV */
 .navbar a {
     text-decoration: none;
     color: white;
     transition: 0.3s;
 }
-
+/* EFECTO HOVER EN LINKS */
 .navbar a:hover {
     color: #00bcd4;
 }
